@@ -62,10 +62,9 @@ include = {{$mount.Source}}
 
 ## files to exclude from the backup
 ## 1. include, exclude statements support globbing with '*'
-## 1. include, exclude statements support globbing with '*'
 
 #include = /var
-#exclude = /var/lock
+exclude = /var/run/docker.sock
 #exclude = /var/run
 #exclude = /var/cache
 
